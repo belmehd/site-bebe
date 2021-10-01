@@ -1,0 +1,28 @@
+header{
+    background-image:url(../img/backimg1920.jpg);
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    width: 80%;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+li{
+    list-style-type: none;
+    font-style: normal;
+}
+.figurelogobb{
+    width: 20%;
+}
+.figurelogo{
+    width: 20%;
+    align-self: end;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    height: 50%;
+}
