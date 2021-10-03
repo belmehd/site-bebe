@@ -1,0 +1,99 @@
+body{
+    font-family: 'Gemunu Libre', sans-serif;
+}
+/*header*/
+header{
+    background-image:url(../img/backimg1920.jpg);
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    font-weight: bold;
+}
+nav{
+    width: 80%;
+    display: inline-block;
+}
+#listnav{
+    display: flex;
+    justify-content: space-around;
+    padding: 0%;
+    width: 100%;
+    height: 75%;
+    margin: 0%;
+    list-style-type: none;
+    font-style: bold;
+    font-size: 2.5em;
+}
+#listnav a{
+    text-decoration: none;
+    color: #000000;
+    height: 30%;
+}
+.figurelogobb{
+    width: 20%;
+    height: 220px;
+    margin: 0px;
+}
+.figurelogo{
+    width: 25%;
+    align-self: end;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    height: 50%;
+    margin: 0px;
+    align-items: end
+}
+.nav{
+    width: 75%;
+    height: 100%;
+}
+.articlenav{
+    display: flex;
+    height: 25%;
+}
+/*section*/
+section{
+    background-color: #f8c694;
+    margin: 0%;
+    padding: 2%;
+}
+section figure{
+    display: flex;
+    font-size: 2em;
+    text-align: center;
+    border-radius: 100px;
+    border: 4px solid burlywood;
+}
+section figcaption{
+    padding: 5%;
+}
+h1{
+    font-size: 3em;
+    text-align: center;
+}
+.img1{
+    border-radius: 0px 100px 100px 0px;
+}
+#img2{
+    border-radius: 100px 0px 0px 100px;
+}
+/*footer*/
+footer{
+    display: flex;
+    padding: 1%;
+    background-image: url(../img/backimg1920footer.jpg);
+}
+footer #logofooter{
+    width: 33%;
+}
+footer p{
+    width: 33%;
+    font-size: 2em;
+}
+footer #resauxfooter{
+    width: 33%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
