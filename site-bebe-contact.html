@@ -1,9 +1,9 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="fr">
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>Site-bebe-contact</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -18,14 +18,120 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/site-bebe-contact.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200&display=swap" rel="stylesheet">
 
   <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
 
+  <header>
+    <figure class="figurelogobb">
+      <img src="baby-boy192.png" alt="icône de bébés" class="logo logoheader"/>
+    </figure>
+    <nav>
+      <div id="listnav">
+        <a href="#"><p>Acceuil</p></a>
+        <a href=""><p>Gallerie</p></a>
+        <a href=""><p>Tarifs</p></a>
+        <a href=""><p>A propos</p></a>
+        <a href=""><p>Contact</p></a>
+      </div>
+      <div class="articlenav">
+    <div class="nav"></div>
+      <figure class="figurelogo">
+        <a href="#"><img src="img/youtube51.png" alt="logo youtube" class="youtube"></a>
+        <a href="#"><img src="img/linkedin51.png" alt="logo linkedin" class="linkedin"></a>
+        <a href="#"><img src="img/insta51.png" alt="logo instagrame" class="insta"></a>
+        <a href="#"><img src="img/facebook51.png" alt="logo facebook" class="facebook"/></a>
+      </figure>
+    </div>
+    </nav>
+  </header>
+
+  <section>
+    <h1>Contact client-entreprise</h1>
+    <div>
+      <form>
+        <p id="textform">
+          Quo cognito Constantius ultra mortalem modum exarsit ac nequo casu idem Gallus de futuris 
+          incertus agitare quaedam conducentia saluti suae per itinera conaretur
+        </p>
+        <p>
+          <label for="prenom">Votre prénom</label>
+          <input type="text" name="prénom" placeholder="entrer votre prénom" id="prenom" autofocus required pattern="[a-zA-Z]+"/>
+        </p>
+
+        <p>
+          <label for="nom">Votre nom</label>
+          <input type="text" name="nom" placeholder="entrer votre nom" id="nom" required pattern="[a-zA-Z]+"/>
+        </p>
+
+        <p>
+          <label for="mail">Votre adresse mail</label>
+          <input type="email" id="mail" name="mail" placeholder="example@mail.com" required/>
+        </p>
+
+        <p>
+          <label for="Tel">Votre numéro de téléphone</label>
+          <input type="tel" id="Tel" name="tel" required/>
+        </p>
+
+        <p>
+          <label for="sujet">Sujet de votre contact</label>
+          <input type="text" name="sujet" placeholder="entrer votre prénom" id="sujet" maxlength="25" required/>
+        </p>
+
+        <p>
+          <label for="message" id="textarea">Votre message</label>
+          <textarea rows="8" cols="35" name="message" id="message" placeholder="votre message" required></textarea>
+        </p>
+      </form>
+      <figure>
+        <figcaption>
+          mandatum est, fractis cruribus occiduntur.
+          Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi.
+          praediximus enim Montium sub ipso vivendi termino his vocabulis appellatos 
+          fabricarum culpasse tribunos ut adminicula futurae molitioni pollicitos.
+        </figcaption>
+        <img src="img/photoprofil.jpg" alt="photo du photographe" id="img1">
+      </figure>
+    </div>
+    <div id="acces">
+      <p>
+        30 rue des prunes, 76523, kualacity Tel : 0X48X5X1XX, Email : babytoff@mail.com<br/>
+        Acces depuis : manibus cavatis offertur, inpigre vel usque Spoletium pergunt. haec nobilium sunt instituta.
+        levius actitata constaret, post multorum clades Apollinares ambo pater
+        et filius in exilium acti cum ad locum
+      </p>
+      <figure id="map">
+        <img src="img/googlemap.png" alt="photo de google map">
+      </figure>
+    </div>
+  </section>
+
+  <footer>
+    <figure id="logofooter">
+      <img src="baby-boy192.png" alt="icône de bébés" class="logo logofooter"/>
+    </figure>
+    <p>
+      30 rue des prunes, 76523, kualacity <br/>
+      Tel : 0X48X5X1XX <br/>
+      Email : babytoff@mail.com
+    </p>
+    <figure id="resauxfooter">
+      <a href=""><img src="img/youtube51.png" alt="logo youtube" class="youtube"></a>
+      <a href=""><img src="img/linkedin51.png" alt="logo linkedin" class="linkedin"></a>
+      <a href=""><img src="img/insta51.png" alt="logo instagrame" class="insta"></a>
+      <a href=""><img src="img/facebook51.png" alt="logo facebook" class="facebook"></a>
+    </figure>
+  </footer>
+
   <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
