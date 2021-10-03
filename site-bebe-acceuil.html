@@ -34,14 +34,17 @@
       <img src="baby-boy192.png" alt="icône de bébés" class="logo logoheader"/>
     </figure>
     <nav>
-      <ul id="listnav">
-        <a href="#"><li class="li1">Acceuil</li></a>
-        <a href=""><li class="li2">Gallerie</li></a>
-        <a href=""><li class="li3">Tarifs</li></a>
-        <a href=""><li class="li4">A propos</li></a>
-        <a href=""><li class="li5">Contact</li></a>
-      </ul>
-      <article class="articlenav">
+      <!--supretion des balises <ul> et <li> car la balise <a> ne peut être une balise enfant de <ul> : W3C-->
+      <div id="listnav">
+        <a href="#"><p>Acceuil</p></a>
+        <a href=""><p>Gallerie</p></a>
+        <a href=""><p>Tarifs</p></a>
+        <a href=""><p>A propos</p></a>
+        <a href=""><p>Contact</p></a>
+      </div>
+    <div class="articlenav">
+      <!--supretion de la balise <article> conteneur pour une <div> car toutes les balises <section> et <article> on besoin d'un titre (W3C),
+      n'étant pas pertinent de mettre un titre pour chaque conteneur je me vois contraint d'utiliser des <div>-->
       <div class="nav"></div>
       <figure class="figurelogo">
         <a href="#"><img src="img/youtube51.png" alt="logo youtube" class="youtube"></a>
@@ -49,11 +52,12 @@
         <a href="#"><img src="img/insta51.png" alt="logo instagrame" class="insta"></a>
         <a href="#"><img src="img/facebook51.png" alt="logo facebook" class="facebook"/></a>
       </figure>
-    </article>
+    </div>
     </nav>
   </header>
 
-  <section id="main">
+  <div id="main">
+    <!--supretion d'une <section> pour une <div> pour les même raison que précédement-->
     <figure id="banniere">
       <img src="img/bb-baniere.jpg" alt="bannière avec photo de bébés" class="banniere"/>
     </figure>
@@ -72,7 +76,7 @@
         <img src="img/studio.jpg" alt="photo d'un studio de photographe" class="imgstudioacceuil"/>
       </figure>
     </section>
-  </section>
+  </div>
 
   <footer>
     <figure id="logofooter">
