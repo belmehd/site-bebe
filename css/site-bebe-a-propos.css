@@ -35,7 +35,7 @@ nav{
     margin: 0px;
 }
 .figurelogo{
-    width: 25%;
+    width: 100%;
     align-self: end;
     display: flex;
     justify-content: space-between;
@@ -50,7 +50,9 @@ nav{
 }
 .articlenav{
     display: flex;
-    height: 25%;
+    height: 30%;
+    float: right;
+    width: 30%;
 }
 /*main*/
 #main{

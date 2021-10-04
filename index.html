@@ -35,34 +35,33 @@
     </figure>
     <nav>
       <!--supretion des balises <ul> et <li> car la balise <a> ne peut être une balise enfant de <ul> : W3C-->
-      <div id="listnav">
+      <article id="listnav">
+        <h2 class="hidden">hidden</h2>
         <a href="index.html"><p>Acceuil</p></a>
         <a href="site-bebe-galerie.html"><p>Gallerie</p></a>
         <a href="site-bebe-tarif.html"><p>Tarifs</p></a>
         <a href="site-bebe-à-propos.html"><p>A propos</p></a>
         <a href="site-bebe-contact.html"><p>Contact</p></a>
-      </div>
-    <div class="articlenav">
-      <!--supretion de la balise <article> conteneur pour une <div> car toutes les balises <section> et <article> on besoin d'un titre (W3C),
-      n'étant pas pertinent de mettre un titre pour chaque conteneur je me vois contraint d'utiliser des <div>-->
-      <div class="nav"></div>
-      <figure class="figurelogo">
-        <a href="#"><img src="img/youtube51.png" alt="logo youtube" class="youtube"></a>
-        <a href="#"><img src="img/linkedin51.png" alt="logo linkedin" class="linkedin"></a>
-        <a href="#"><img src="img/insta51.png" alt="logo instagrame" class="insta"></a>
-        <a href="#"><img src="img/facebook51.png" alt="logo facebook" class="facebook"/></a>
-      </figure>
-    </div>
+      </article>
+      <article class="articlenav">
+        <h2 class="hidden">hidden</h2>
+        <figure class="figurelogo">
+          <a href="#"><img src="img/youtube51.png" alt="logo youtube" class="youtube"></a>
+          <a href="#"><img src="img/linkedin51.png" alt="logo linkedin" class="linkedin"></a>
+          <a href="#"><img src="img/insta51.png" alt="logo instagrame" class="insta"></a>
+          <a href="#"><img src="img/facebook51.png" alt="logo facebook" class="facebook"/></a>
+        </figure>
+      </article>
     </nav>
   </header>
 
-  <div id="main">
-    <!--supretion d'une <section> pour une <div> pour les même raison que précédement-->
+  <section id="main">
+    <h2 class="hidden">hidden</h2>
     <figure id="banniere">
       <img src="img/bb-baniere.jpg" alt="bannière avec photo de bébés" class="banniere"/>
     </figure>
     <section id="article-studio">     
-        <h1>DUTAILLUTE Nadine, photographe bébé, nouveau-né et grossesse</h1>
+        <h2>DUTAILLUTE Nadine, photographe bébé, nouveau-né et grossesse</h2>
       <figure id="p-imgstudio">
         <figcaption>
           Mox dicta finierat, multitudo omnis ad, quae imperator voluit, promptior laudato consilio consensit in pacem ea ratione maxime percita,
@@ -76,7 +75,7 @@
         <img src="img/studio.jpg" alt="photo d'un studio de photographe" class="imgstudioacceuil"/>
       </figure>
     </section>
-  </div>
+  </section>
 
   <footer>
     <figure id="logofooter">
