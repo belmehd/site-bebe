@@ -1,7 +1,9 @@
 body{
     font-family: 'Gemunu Libre', sans-serif;
 }
-/*header*/
+
+
+/*[1]header*/
 header{
     background-image:url(../img/backimg1920.jpg);
     display: flex;
@@ -9,10 +11,20 @@ header{
     padding: 2%;
     font-weight: bold;
 }
+
+/*[1.1]logo bébé*/
+.figurelogobb{
+    width: 20%;
+    height: 220px;
+    margin: 0px;
+}
+
+/*[1.2]navigation*/
 nav{
     width: 80%;
     display: inline-block;
 }
+/*[1.2.a]navigation site bébé (en haut du header)*/
 #listnav{
     display: flex;
     justify-content: space-around;
@@ -29,11 +41,10 @@ nav{
     color: #000000;
     height: 30%;
 }
-.figurelogobb{
-    width: 20%;
-    height: 220px;
-    margin: 0px;
+#listnav p{
+    margin: 0%;
 }
+/*[1.2.b]navigation résaux (youtube, facebook, instagrame, linkedin)*/
 .figurelogo{
     width: 100%;
     align-self: end;
@@ -44,16 +55,15 @@ nav{
     margin: 0px;
     align-items: end
 }
-.nav{
-    width: 75%;
-    height: 100%;
-}
 .articlenav{
     display: flex;
     height: 30%;
     float: right;
     width: 30%;
 }
+/*/header*/
+
+
 /*main*/
 section{
     margin: 0%;
@@ -74,11 +84,7 @@ section h1{
 }
 figcaption{
     text-align: center;
-    margin-left: 14em;
     font-size: 1.6em;
-}
-#img1{
-    margin-left: 23em;
 }
 #map{
     display: flex;
@@ -96,20 +102,33 @@ figcaption{
 }
 form{
     padding: 2%;
+    width: 40%;
 }
-/*footer*/
+.form-img{
+    display: flex;
+    justify-content: space-between;
+}
+.form-img figure{
+    width: 40%;
+}
+
+
+/*[3]footer*/
 footer{
     display: flex;
     padding: 1%;
     background-image: url(../img/backimg1920footer.jpg);
 }
+/*[3.1]logo bébé*/
 footer #logofooter{
     width: 33%;
 }
+/*[3.2]adresse, tel, mail*/
 footer p{
     width: 33%;
     font-size: 2em;
 }
+/*[3.3]résaux : facebook, instagrame, linkedin, youtube*/
 footer #resauxfooter{
     width: 33%;
     display: flex;

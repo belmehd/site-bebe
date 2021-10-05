@@ -36,7 +36,7 @@
     <nav>
       <!--supretion des balises <ul> et <li> car la balise <a> ne peut être une balise enfant de <ul> : W3C-->
       <article id="listnav">
-        <h2 class="hidden">hidden</h2>
+        <h2 class="hidden">hidden</h2><!--h2 requis pour pouvoir placer un article ou une section (W3C)-->
         <a href="index.html"><p>Acceuil</p></a>
         <a href="site-bebe-galerie.html"><p>Gallerie</p></a>
         <a href="site-bebe-tarif.html"><p>Tarifs</p></a>
@@ -44,7 +44,7 @@
         <a href="site-bebe-contact.html"><p>Contact</p></a>
       </article>
       <article class="articlenav">
-        <h2 class="hidden">hidden</h2>
+        <h2 class="hidden">hidden</h2><!--h2 requis pour pouvoir placer un article ou une section (W3C)-->
         <figure class="figurelogo">
           <a href="#"><img src="img/youtube51.png" alt="logo youtube" class="youtube"></a>
           <a href="#"><img src="img/linkedin51.png" alt="logo linkedin" class="linkedin"></a>
@@ -57,7 +57,8 @@
 
   <section>
     <h1>Contact client-entreprise</h1>
-    <div>
+    <article class="form-img">
+      <h2 class="hidden">hidden</h2><!--h2 requis pour pouvoir placer un article ou une section (W3C)-->
       <form>
         <p id="textform">
           Quo cognito Constantius ultra mortalem modum exarsit ac nequo casu idem Gallus de futuris 
@@ -102,8 +103,9 @@
         </figcaption>
         <img src="img/photoprofil.jpg" alt="photo du photographe" id="img1">
       </figure>
-    </div>
-    <div id="acces">
+    </article>
+    <article id="acces">
+      <h2 class="hidden">hidden</h2><!--h2 requis pour pouvoir placer un article ou une section (W3C)-->
       <p>
         30 rue des prunes, 76523, kualacity Tel : 0X48X5X1XX, Email : babytoff@mail.com<br/>
         Acces depuis : manibus cavatis offertur, inpigre vel usque Spoletium pergunt. haec nobilium sunt instituta.
@@ -113,7 +115,7 @@
       <figure id="map">
         <img src="img/googlemap.png" alt="photo de google map">
       </figure>
-    </div>
+    </article>
   </section>
 
   <footer>
