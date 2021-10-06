@@ -13,9 +13,9 @@
   <meta property="og:image" content="">
 
   <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="apple-touch-icon" href="">
   <!-- Place favicon.ico in the root directory -->
-
+  <link rel="icon" href="baby-boy32.ico">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/site-bebe-contact.css">
@@ -81,18 +81,19 @@
 
         <p>
           <label for="Tel">Votre numéro de téléphone</label>
-          <input type="tel" id="Tel" name="tel" required/>
+          <input type="tel" id="Tel" name="tel" maxlength="10" placeholder="0515324585" pattern="[0-9]+" required/>
         </p>
 
         <p>
           <label for="sujet">Sujet de votre contact</label>
-          <input type="text" name="sujet" placeholder="entrer votre prénom" id="sujet" maxlength="25" required/>
+          <input type="text" name="sujet" id="sujet" maxlength="25" required/>
         </p>
 
         <p>
           <label for="message" id="textarea">Votre message</label>
           <textarea rows="8" cols="35" name="message" id="message" placeholder="votre message" required></textarea>
         </p>
+        <input type="submit" value="envoyer"/>
       </form>
       <figure>
         <figcaption>
