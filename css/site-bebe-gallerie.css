@@ -54,7 +54,7 @@ nav{
     justify-content: space-between;
     flex-direction: row-reverse;
     margin: 0px;
-    align-items: end
+    align-items: end;
 }
 .figurelogo a :hover{
     border: 2px solid #ffffff;
