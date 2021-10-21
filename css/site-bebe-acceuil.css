@@ -25,7 +25,7 @@ nav{
     display: inline-block;
 }
 /*[1.2.a]navigation site bébé (en haut du header)*/
-#listnav{
+.listnav{
     display: flex;
     justify-content: space-around;
     padding: 0%;
@@ -35,15 +35,15 @@ nav{
     list-style-type: none;
     font-size: 2.5em;
 }
-#listnav :hover{
+.listnav :hover{
     color: white;
 }
-#listnav a{
+.listnav a{
     text-decoration: none;
     color: #000000;
     height: 30%;
 }
-#listnav p{
+.listnav p{
     margin: 0%;
 }
 /*[1.2.b]navigation résaux (youtube, facebook, instagrame, linkedin)*/
@@ -69,40 +69,40 @@ nav{
 
 
 /*[2]section*/
-#main{
+.main{
     background-color: #f8c694;
     padding-bottom: 3%;
 }
 
 /*[2.1]banniere*/
-#banniere{
+.banniere{
     margin: 0%;
 }
-#banniere img{
+.banniere img{
     width: 100%;
 }
 
 /*[2.2]section 2*/
-#article-studio{
+.article-studio{
     text-align: center;
 }
 /*[2.2.a]titre*/
-#article-studio h2{
+.article-studio h2{
     font-size: 250%;
 }
 /*[2.2.b]figure*/
-#p-imgstudio{
+.p-imgstudio{
     display: flex;
     border-radius: 100px;
     border: 4px solid burlywood;
 }
 /*[2.2.b.a]photo studio*/
-#p-imgstudio img{
+.p-imgstudio img{
     border-radius: 0px 100px 100px 0px;
     width: 60%;
 }
 /*[2.2.b.b]figcaption*/
-#p-imgstudio figcaption{
+.p-imgstudio figcaption{
     font-size: 1.5em;
     padding: 3%;
     width: 40%;
@@ -118,7 +118,7 @@ footer{
     background-image: url(../img/backimg1920footer.jpg);
 }
 /*[3.1]logo bébé*/
-footer #logofooter{
+footer .logofooter{
     width: 33%;
 }
 /*[3.2]adresse, tel, mail*/
@@ -127,7 +127,7 @@ footer p{
     font-size: 2em;
 }
 /*[3.3]résaux : facebook, instagrame, linkedin, youtube*/
-footer #resauxfooter{
+footer .resauxfooter{
     width: 33%;
     display: flex;
     justify-content: space-between;

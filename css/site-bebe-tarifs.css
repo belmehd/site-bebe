@@ -25,7 +25,7 @@ nav{
     display: inline-block;
 }
 /*[1.2.a]navigation site bébé (en haut du header)*/
-#listnav{
+.listnav{
     display: flex;
     justify-content: space-around;
     padding: 0%;
@@ -35,15 +35,15 @@ nav{
     list-style-type: none;
     font-size: 2.5em;
 }
-#listnav :hover{
+.listnav :hover{
     color: white;
 }
-#listnav a{
+.listnav a{
     text-decoration: none;
     color: #000000;
     height: 30%;
 }
-#listnav p{
+.listnav p{
     margin: 0%;
 }
 /*[1.2.b]navigation résaux (youtube, facebook, instagrame, linkedin)*/
@@ -97,7 +97,7 @@ h1{
 .img1{
     border-radius: 0px 100px 100px 0px;
 }
-#img2{
+.img2{
     border-radius: 100px 0px 0px 100px;
 }
 /*footer*/
@@ -106,14 +106,14 @@ footer{
     padding: 1%;
     background-image: url(../img/backimg1920footer.jpg);
 }
-footer #logofooter{
+footer .logofooter{
     width: 33%;
 }
 footer p{
     width: 33%;
     font-size: 2em;
 }
-footer #resauxfooter{
+footer .resauxfooter{
     width: 33%;
     display: flex;
     justify-content: space-between;
